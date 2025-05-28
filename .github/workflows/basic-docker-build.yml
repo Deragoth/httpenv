@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: ${{ github.event_name != 'pull_request' }}
-          tags: deragoth/httpenv:latest,deragoth/httpenv:01
+          tags: khamsin/httpenv:latest,khamsin/httpenv:01
